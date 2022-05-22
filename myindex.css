@@ -8,6 +8,13 @@ p{
 p i{
     margin-right: 6px;
 }
+@media screen and (max-width: 850px)
+{
+    .main-resume
+    {
+        width: 500px;
+    }
+}
 .main-resume {
     width: 850px;
     height: 740px;
@@ -74,3 +81,13 @@ img
     font-size: 18px;
     color:blue
 }
+.social
+{
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+.social i{
+    margin: 20px;
+}
+
